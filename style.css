@@ -1,0 +1,65 @@
+.navbar a{
+   font-size: 20px;
+   color: #4D4D4F;
+   font-weight: 500;
+}
+
+.nav-link{
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+ .banner-image{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    /* border: 3px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    box-shadow: 1px 1px 8px grey;
+}
+.card-alike{
+    padding: 50px 40px 30px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    font-size: 20px;
+}
+.card-text{
+    font-size: 19px;
+}
+
+.owl-prev {
+    left: -30px;
+}
+.owl-next {
+    right: -30px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+top: 25px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color: rgb(39, 39, 39);
+} 
+
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+ }
