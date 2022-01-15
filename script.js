@@ -40,8 +40,8 @@ const popularPosts = [
 let showPosts = document.getElementById("showPosts");
 let postDatas = "";
 
-const loopPosts = popularPosts.forEach(({title,text,image,alter}) => {
-    
+ popularPosts.forEach(({title,text,image,alter}) => {
+
       postDatas += `
             <div class="ms-2 me-2 mb-3">
                 <div class="card">
@@ -57,7 +57,7 @@ const loopPosts = popularPosts.forEach(({title,text,image,alter}) => {
      showPosts.innerHTML = postDatas;
     
 });
-document.addEventListener("DOMContentLoaded", loopPosts);
+
 
 $('.owl-carousel').owlCarousel({
     autoplay: true,
