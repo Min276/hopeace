@@ -32,6 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .card-title{
@@ -40,6 +41,14 @@
 
 .card-text{
     font-size: 18px;
+}
+
+.postButton {
+    background-color:#C3F5E0;
+}
+
+.fa, .fas  {
+    color: #4d4d4f;
 }
 
 .owl-prev {
