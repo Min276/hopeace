@@ -1,5 +1,5 @@
 
-## HOPEACE Web 
+## Web UI Project
 
 This website is still in the development stage, so it would
 not be complete, and doesn't seem to look great.
