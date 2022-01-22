@@ -9,13 +9,13 @@ not be complete, and doesn't seem to look great.
 Clone the project
 
 ```bash
-  git clone https://github.com/Min276/hopeace.git
+  git clone https://github.com/Min276/web-ui-project.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd hopeace
+  cd web-ui-project
 ```
 Open any Text Editor (VS Code)
 
