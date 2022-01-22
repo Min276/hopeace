@@ -90,9 +90,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-3 mb-3">
-                    <div class="card card-alike">
+                    <div class="card card-alike" data-tilt  data-tilt-axis="x">  
                         <div class="circle">
-                          <i class="fas fa-hand-holding-heart"></i>
+                          <i class="fas fa-hand-holding-heart logo"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Free Classes</div>
@@ -100,9 +100,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3  mb-3">
-                    <div class="card card-alike">
+                    <div class="card card-alike" data-tilt  data-tilt-axis="x">
                         <div class="circle">
-                          <i class="fas fa-hand-holding-heart"></i>
+                          <i class="fas fa-hand-holding-heart logo"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Learning Source</div>
@@ -110,9 +110,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3  mb-3">
-                    <div class="card card-alike">
+                    <div class="card card-alike" data-tilt  data-tilt-axis="x">
                         <div class="circle">
-                          <i class="fas fa-hand-holding-heart"></i>
+                          <i class="fas fa-hand-holding-heart logo"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Raising Funds</div>
@@ -120,9 +120,9 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3  mb-3">
-                    <div class="card card-alike">
+                    <div class="card card-alike" data-tilt  data-tilt-axis="x">
                         <div class="circle">
-                          <i class="fas fa-hand-holding-heart"></i>
+                          <i class="fas fa-hand-holding-heart logo"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Enriching Lives</div>
@@ -147,28 +147,31 @@
 
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4  mb-3">
-                <div class="card">
-                    <img src="images/image.jpg">
+                <div class="card"  data-tilt  data-tilt-axis="x">
+                    <img src="images/image.jpg" data-tilt>
                     <div class="card-body">
                        <h3 class="card-title">IELTS Course</h3>
+                       <p class="card-text"> In this course, you will get to know how to be fluent in English.</p>
                        <a href="#" class="btn" style="background-color:#C3F5E0;">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4  mb-3">
-                <div class="card">
+                <div class="card" data-tilt  data-tilt-axis="x">
                     <img src="images/image.jpg">
                     <div class="card-body">
                        <h3 class="card-title">IELTS Course</h3>
+                       <p class="card-text"> In this course, you will get to know how to be fluent in English.</p>
                        <a href="#" class="btn" style="background-color:#C3F5E0;">Read More</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4  mb-3">
-                <div class="card">
+                <div class="card" data-tilt  data-tilt-axis="x">
                     <img src="images/image.jpg">
                     <div class="card-body">
                        <h3 class="card-title">IELTS Course</h3>
+                       <p class="card-text"> In this course, you will get to know how to be fluent in English.</p>
                        <a href="#" class="btn" style="background-color:#C3F5E0;">Read More</a>
                     </div>
                 </div>
@@ -198,17 +201,20 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6 mb-3">
-                <div class="card card-alike" style="justify-content: center; align-items: center; background: #4d4d4f">
-                        <img src="images/logo.png">
-                        <h4 style="color: #fff; padding: 10px">HOPEACE</h4>
+                <div class="card card-alike" data-tilt  data-tilt-axis="x" style="padding: 0px; background-color: #4d4d4f; border: 1px solid #4d4d4f">
+                   <img src="images/about.svg" style="width: 100%;">
                 </div>
             </div>
+
             <div class="col-12 col-md-6 col-lg-6 mb-3">
-                <div class="card card-alike" style="justify-content: center; align-items: center;">
-                        <h2 class="card-title" style="display: inline-block; text-align: left;">About Us</h2>
-                        <p class="card-text" style="text-align: justify;">
-                            Our main objective is to enrich the lives or our community - whether by providing free classes for learners, providing them learning materials, raising funds for a specific reason or making educational posts. Hopeace is here to help !
-                        </p>                 
+                <div class="card card-alike" style="justify-content: center; align-items: center;padding: 53px 30px 40px 30px;">
+                    
+                    <h2 class="card-title" style="font-size: 25px; color: #4d4d4f">About Us</h2>
+                    <br>
+                    <p class="card-text" style="text-align: justify; font-size: 19px; line-height: 30px;">
+                        Our main objective is to enrich the lives or our community - whether by providing free classes for learners, providing them learning materials, raising funds for a specific reason or making educational posts. Hopeace is here to help !
+                    </p>                 
+                    <br>
                 </div>
             </div>
         </div>
@@ -217,4 +223,13 @@
 </body>
 <script src="owl_carousel/owl.carousel.min.js"></script>
 <script src="script.js"></script>
+<script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+<script>
+    $('.js-tilt').tilt({
+    speed: 300,
+    transition: true,
+    glare: true,
+    maxGlare: 1,
+})
+</script>
 </html>

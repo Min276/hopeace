@@ -14,7 +14,9 @@
     justify-content: center;
     width: 100%;
 }
-
+/* .fa, .fas  {
+    color: #4d4d4f;
+} */
 .circle{
     width: 100px;
     height: 100px;
@@ -22,8 +24,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 34px;
+    font-size: 36px;
     box-shadow: 1px 1px 8px grey;
+    transition: 1s;
 }
 
 .card-alike{
@@ -33,6 +36,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    transition: 1s;
+    color: #4D4D4F;
+}
+
+.card-alike:hover{
+    background-color: #4D4D4F;
+    color: white!important;
 }
 
 .card-title{
@@ -47,8 +57,8 @@
     background-color:#C3F5E0;
 }
 
-.fa, .fas  {
-    color: #4d4d4f;
+.circle:hover{
+    font-size: 30px;
 }
 
 .owl-prev {
@@ -69,6 +79,22 @@
     color: rgb(39, 39, 39);
 } 
 
+.group{
+    display: flex;
+    align-items: center;
+}
+.role, .role-icon{
+   display: flex;
+   align-items: center;
+   color: #4D4D4F;
+}
+.role{
+    font-size: 18px;
+}
+.role-icon{
+    text-decoration: none;
+    margin-left: 15px;
+}
 @media (min-width: 576px){
   .navbar-expand-sm .navbar-nav .nav-link {
      padding-right: 1rem;
